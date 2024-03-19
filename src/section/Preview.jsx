@@ -7,7 +7,7 @@ function Preview() {
   return (
     <>
       <div className="h-screen w-screen flex justify-center items-center Figtree">
-        <div className="lg:w-[50%] 2xl:w-[42%] w-[91%] bg-white rounded-xl flex flex-col md:flex-row">
+        <div className="lg:w-[50%] xl:w-[42%] w-[91%] bg-white rounded-xl flex flex-col md:flex-row">
           <div className="w-full lg:w-1/2">
             <img src={product} alt="product" className="hidden lg:block w-full rounded-l-xl" />
             <img src={product_2} alt="product" className="block lg:hidden w-full rounded-t-xl" />
